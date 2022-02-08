@@ -5,8 +5,8 @@ Using a CNN GAN architecture for image generation.
 
 Project was used as a platform to experiment with various techniques to increase effectiveness of training process.
 Techniques include:
-* label smoothing
+* Label smoothing
 * Two Time-Scale Update Rule
-* Continual monitoring and early stopping
+* Learning rate adjustments as per monitoring
 
 Overall the training stability was much improved compared to when the model was left to train without implementing these measures.
